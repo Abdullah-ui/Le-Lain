@@ -1,0 +1,537 @@
+.articles-innovations-1000 {
+    display: flex;
+    max-width: 135rem;
+    min-width: auto;
+    margin: 0 auto;
+
+    @media (max-width: 1355px) {
+        margin: 0 4rem;
+    }
+
+    @media (min-width: 1000px) {
+        display: none;
+    }
+
+    @media (max-width: 855px) {
+        flex-direction: column;
+    }
+
+    ///////////////////////////////////////////////////////////////
+    //THE WRAPPER OF THE INNOVATIONS SIDE ONE
+    &__wrapper-1 {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        margin-right: 3rem;
+
+        @media (max-width: 855px) {
+            width: 100%;
+            margin-bottom: 3rem;
+        }
+        ///////////////////////////////////////////////////////////////
+        //THE FIRST ARTICLE OF THE INNOVATIONS SIDE ONE
+        &-article-1 {
+            display: flex;
+            width: 100%;
+
+            &-image {
+                width: 30%;
+                margin-right: 1rem;
+                
+                @media (max-width: 1050px) {
+                    height: 9rem;
+                }
+
+                @media (max-width: 400px) {
+                    display: none;
+                }
+            }
+
+            &-row {
+                display: flex;
+                flex-direction: column;
+                width: 70%;
+
+                @media (max-width: 400px) {
+                    width: 100%;
+                }
+
+                & > * {
+                    text-decoration: none;
+                    color: var(--font-default);
+                }
+
+                &-main-heading {
+                    padding-bottom: 1rem;
+                    font-size: 2rem;
+                    font-family: 'Merriweather', Helvetica, sans-serif;
+
+                    @media (max-width: 450px) {
+                        font-size: 1.5rem
+                    }
+                }
+
+                &-by {
+                    font-size: 1.35rem;
+                    font-family: 'Work Sans';
+                    font-weight: 300;
+                    
+                }
+
+                &-writen-by {
+                    font-size: 1.35rem;
+                    font-weight: 700;               
+                    font-family: 'Work Sans';
+                }
+            }
+        }
+
+        ///////////////////////////////////////////////////////////////
+        //THE SECOND ARTICLE OF THE INNOVATIONS SIDE ONE
+        &-article-2 {
+            display: flex;
+            width: 100%;
+            margin-top: 1.75rem;
+
+            @media (max-width: 400px) {
+                border-top: .1rem solid rgba(0, 0, 0, 0.199);
+                padding-top: 1rem;
+            }
+
+            &-image {
+                width: 30%;
+                margin-right: 1rem;
+                
+                @media (max-width: 1050px) {
+                    height: 9rem;
+                }
+
+                @media (max-width: 400px) {
+                    display: none;
+                }
+            }
+
+            &-row {
+                display: flex;
+                flex-direction: column;
+                width: 70%;
+
+                @media (max-width: 400px) {
+                    width: 100%;
+                }
+
+                & > * {
+                    text-decoration: none;
+                    color: var(--font-default);
+                }
+
+                &-main-heading {
+                    padding-bottom: 1rem;
+                    font-size: 2rem;
+                    font-family: 'Merriweather', Helvetica, sans-serif;
+
+                    @media (max-width: 450px) {
+                        font-size: 1.5rem
+                    }
+                }
+
+                &-by {
+                    font-size: 1.35rem;
+                    font-family: 'Work Sans';
+                    font-weight: 300;
+                }
+
+                &-writen-by {
+                    font-size: 1.35rem;
+                    font-family: 'Work Sans';
+                    font-weight: 700;
+                }
+            }
+        }
+
+        ///////////////////////////////////////////////////////////////
+        //THE THIRD ARTICLE OF THE INNOVATIONS SIDE ONE
+        &-article-3 {
+            display: flex;
+            width: 100%;
+            margin-top: 1.75rem;
+
+            @media (max-width: 400px) {
+                border-top: .1rem solid rgba(0, 0, 0, 0.199);
+                padding-top: 1rem;
+            }
+
+            &-image {
+                width: 30%;
+                margin-right: 1rem;
+                
+                @media (max-width: 1050px) {
+                    height: 9rem;
+                }
+
+                @media (max-width: 400px) {
+                    display: none;
+                }
+            }
+
+            &-row {
+                display: flex;
+                flex-direction: column;
+                width: 70%;
+
+                @media (max-width: 400px) {
+                    width: 100%;
+                }
+
+                & > * {
+                    text-decoration: none;
+                    color: var(--font-default);
+                }
+
+                &-main-heading {
+                    padding-bottom: 1rem;
+                    font-size: 2rem;
+                    font-family: 'Merriweather', Helvetica, sans-serif;
+
+                    @media (max-width: 450px) {
+                        font-size: 1.5rem
+                    }
+                }
+
+                &-by {
+                    font-size: 1.35rem;
+                    font-family: 'Work Sans';
+                    font-weight: 300;
+                }
+
+                &-writen-by {
+                    font-size: 1.35rem;
+                    font-family: 'Work Sans';
+                    font-weight: 700;
+                }
+            }
+        }
+
+        ///////////////////////////////////////////////////////////////
+        //THE FOURTH ARTICLE OF THE INNOVATIONS SIDE ONE
+        &-article-4 {
+            display: flex;
+            width: 100%;
+            margin-top: 1.5rem;
+
+            @media (max-width: 400px) {
+                border-top: .1rem solid rgba(0, 0, 0, 0.199);
+                padding-top: 1rem;
+            }
+
+            &-image {
+                width: 30%;
+                margin-right: 1rem;
+                
+                @media (max-width: 1050px) {
+                    height: 9rem;
+                }
+
+                @media (max-width: 400px) {
+                    display: none;
+                }
+            }
+
+            &-row {
+                display: flex;
+                flex-direction: column;
+                width: 70%;
+
+                @media (max-width: 400px) {
+                    width: 100%;
+                }
+
+                & > * {
+                    text-decoration: none;
+                    color: var(--font-default);
+                }
+
+                &-main-heading {
+                    padding-bottom: 1rem;
+                    font-size: 2rem;
+                    font-family: 'Merriweather', Helvetica, sans-serif;
+
+                    @media (max-width: 450px) {
+                        font-size: 1.5rem;
+                    }
+                }
+
+                &-by {
+                    font-size: 1.35rem;
+                    font-family: 'Work Sans';
+                    font-weight: 300;
+                }
+
+                &-writen-by {
+                    font-size: 1.35rem;
+                    font-family: 'Work Sans';
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    &__wrapper-2 {
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+
+        @media (max-width: 855px) {
+            width: 100%;
+        }
+
+        &-1st {
+            display: flex;
+
+            @media (max-width: 475px) {
+                flex-direction: column;
+            }
+        }
+
+        &-article-1 {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-right: 2rem;
+
+            &-image {
+
+                &-1000 {
+                    width: 100%;
+                    padding-top: .1rem;
+
+                    @media (max-width: 400px) {
+                        display: none;
+                    }
+                }
+
+                &-400 {
+                    @media (min-width: 401px) {
+                        display: none;
+                    }
+
+                    @media (max-width: 400px) {
+                        width: 100%;
+                        padding-top: .1rem;  
+                    }
+                }
+            }
+
+            &-row {
+                display: flex;
+                flex-direction: column;
+                background-color: black;
+                padding: 1rem 1rem 2rem 1rem;
+                margin-top: -.5rem;
+                & > * {
+                    text-decoration: none;
+                    color: var(--font-white);
+                }
+
+                &-main-heading {
+                    width: 100%;
+                    font-size: 2rem;
+                    padding-bottom: 1rem;
+
+                    @media (max-width: 400px) {
+                        font-size: 1.5rem;
+                    }
+                }
+
+                &-by {
+                    font-size: 1.35rem;
+
+                    @media (max-width: 400px) {
+                        font-size: 1.1rem;
+                    }
+                }
+
+                &-writen-by {
+                    font-size: 1.35rem;
+
+                    @media (max-width: 400px) {
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+
+        &-inside {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &-article-2 {
+            width: 100%;
+
+            @media (max-width: 400px) {
+                margin-top: 1rem;
+            }
+            
+            &-image {
+                width: 100%;
+
+                @media (max-width: 400px) {
+                    display: none;
+                }
+
+                &-400 {
+                    @media (min-width: 401px) {
+                        display: none;
+                    }
+
+                    @media (max-width: 400px) {
+                        width: 100%;
+                        padding-top: .1rem;  
+                    }
+                }
+            }
+
+            &-row {
+                display: flex;
+                flex-direction: column;
+                background-color: black;
+                margin-top: -1rem;
+                padding: 1rem 1rem 5.7rem 1rem;
+
+                @media (max-width: 933px) {
+                    padding: 1rem 1rem 8.2rem 1rem;
+                }
+
+                @media (max-width: 931px) {
+                    padding: 1rem 1rem 6rem 1rem;
+                }
+
+                @media (max-width: 855px) {
+                    padding: 1rem 1rem 3rem 1rem
+                }
+
+                @media (max-width: 822px) {
+                    padding: 1rem 1rem 5.4rem 1rem;
+                }
+
+                @media (max-width: 680px) {
+                    padding: 1rem 1rem 3.3rem 1rem;
+                }
+
+                @media (max-width: 590px) {
+                    padding: 1rem 1rem 5.95rem 1rem;
+                }
+
+                @media (max-width: 475px) {
+                    padding: 1rem;
+                }
+
+                & > * {
+                    text-decoration: none;
+                    color: var(--font-white);
+                }
+
+                &-main-heading {
+                    font-size: 1.75rem;
+                    padding-bottom: 1rem;
+                }
+
+                &-by {
+                    font-size: 1.25rem;
+                }
+
+                &-writen-by {
+                    font-size: 1.25rem;
+                }
+            }
+
+        }
+
+        &-article-3 {
+            
+            &-full {
+                margin-top: 1rem;
+                display: flex;
+                width: 100%;
+
+                @media (max-width: 400px) {
+                    flex-direction: column;
+                }
+            }
+            &-image {
+                width: 100%;
+
+                @media (max-width: 1000px) {
+                    display: none;
+                }
+
+                &-1000 {
+
+                    @media (max-width: 470px) {
+                        width: 10rem;
+                        height: 12rem;
+                    }
+
+                    @media (max-width: 380px) {
+                        height: 14rem;
+                    }
+
+                    @media (max-width: 400px) {
+                        display: none;
+                    }
+                }
+
+                &-100 {
+
+                    @media (min-width: 401px) {
+                        display: none;
+                    }
+                    @media (max-width: 400px) {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+                
+            }
+
+            &-row {
+                display: flex;
+                flex-direction: column;
+                background-color: black;
+                margin-top: -1rem;
+                padding: 1rem;
+
+                @media (max-width: 1000px) {
+                    margin-top: 0;
+                }
+
+                & > * {
+                    text-decoration: none;
+                    color: var(--font-white);
+                }
+
+                &-main-heading {
+                    font-size: 1.75rem;
+                    padding-bottom: 1rem;
+
+                    @media (max-width: 440px) {
+                        font-size: 1.5rem;
+                    }
+                }
+
+                &-by {
+                    font-size: 1.25rem;
+                }
+
+                &-writen-by {
+                    font-size: 1.25rem;
+                }
+            }
+
+        }
+    }
+}
+
+
+

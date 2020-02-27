@@ -1,0 +1,445 @@
+.articles {
+    display: flex;
+    height: 20rem;
+    margin: 4rem 1rem;
+
+    @media (max-width: 855px) {
+        display: none;
+    }
+
+    ////////////////ARTICLE ONE
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+        transition: scale .3s;
+    }
+
+    &__sub-heading-1 {
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
+
+    &__main-heading-1 {
+        font-size: 1.75rem;
+        font-family: var(--play-fair);
+        @include text-decoration;
+    }
+
+    &__author-name-image-1 {
+        display: flex;
+    }
+
+    &__writen-by-1 {
+        font-size: 1.5rem;
+        margin-right: 1rem;
+        align-self: center;
+        font-weight: 700;
+    }
+
+    &__author-photo-1 {
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+    }
+
+    &__paragraph-1 {
+        font-size: 1.35rem;
+    }
+
+    &__date-1 {
+        font-size: 1.20rem;
+        margin: .5rem 0;
+    }
+
+    &__article-photo-1 {
+        height: 15rem;
+        width: 18rem;
+        align-self: center;
+    }
+
+    ////////////////////////////////////////////////////////////
+    ///////ARTICLE TWO
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 60rem;
+        margin-left: 2rem;
+
+        @media (max-width: 1035px) {
+            width: 45rem;
+        }
+
+        @media (max-width: 900px) {
+            width: 42.5rem;
+        }
+
+    }
+
+    &__sub-heading-2 {
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
+
+    &__main-heading-2 {
+        font-size: 1.75rem;
+        @include text-decoration;
+    }
+
+    &__author-name-image-2 {
+        display: flex;
+    }
+
+    &__writen-by-2 {
+        font-size: 1.5rem;
+        margin-right: 1rem;
+        align-self: center;
+        font-weight: 700;
+    }
+
+    &__author-photo-2 {
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+    }
+
+    &__paragraph-2 {
+        font-size: 1.35rem;
+    }
+
+    &__date-2 {
+        font-size: 1.20rem;
+        margin: .5rem 0;
+    }
+
+    &__article-photo-2 {
+        height: 15rem;
+        width: 18rem;
+        align-self: center;
+    }
+
+    ///////////////////////////////////////////////////////////
+    //ARTICLE THIRD ON MAIN PAGE
+    
+    &__wrapper-3 {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        margin-left: 2rem;
+    }
+
+    &__sub-heading-3 {
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+
+    &__main-heading-3 {
+        font-size: 2.5rem;
+        @include text-decoration; 
+    }
+
+    &__author-name-image-3 {
+        display: flex;
+    }
+
+    &__writen-by-3 {
+        font-size: 1.75rem;
+        margin-right: 1.5rem;
+        align-self: center;
+        font-weight: 700;
+    }
+
+    &__author-photo-3 {
+        height: 5rem;
+        width: 5rem;
+        border-radius: 50%;
+    }
+
+    &__paragraph-3 {
+        font-size: 1.5rem;
+    }
+
+    &__date-3 {
+        font-size: 1.40rem;
+        margin: .5rem 0;
+    }
+
+    &__article-photo-3 {
+        height: 16rem;
+        width: 17rem;
+    }
+
+
+    ////////////////////////////////////
+    //ARTICLE FOUR ON THE MAIN PAGE OF COURSE
+
+    
+    &__wrapper-4 {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        margin-left: 2rem;
+    }
+
+    &__sub-heading-4 {
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+
+    &__main-heading-4 {
+        font-size: 2.5rem;
+        @include text-decoration;
+    }
+
+    &__author-name-image-4 {
+        display: flex;
+    }
+
+    &__writen-by-4 {
+        font-size: 1.75rem;
+        margin-right: 1.5rem;
+        align-self: center;
+        font-weight: 700;
+    }
+
+    &__author-photo-4 {
+        height: 5rem;
+        width: 5rem;
+        border-radius: 50%;
+    }
+
+    &__paragraph-4 {
+        font-size: 1.5rem;
+    }
+
+    &__date-4 {
+        font-size: 1.40rem;
+        margin: .5rem 0;
+    }
+
+    &__article-photo-4 {
+        height: 16rem;
+        width: 17rem;
+    }
+}
+
+.popular {
+    display: flex; margin-left: 6rem;
+    width: 30rem;
+    margin: 0 auto;
+
+    @media (max-width: 1150px) {
+        width: 20rem;
+    }
+
+    @media (max-width: 900px) {
+        width: 15rem;
+    }
+
+    @media (max-width: 855px) {
+        display: none;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__top-heading {
+        font-size: 1.99rem;
+        text-transform: uppercase;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        width: 20rem;
+        font-family: var(--play-fair);
+    }
+
+    &__article-one-wrapper-row {
+        display: flex;
+        margin-top: 1rem;
+
+        & > * {
+            @include text-decoration;
+        }
+    }
+
+    &__article-one-01 {
+        font-size: 1.75rem;
+        align-self: center;
+        margin-right: 1rem;
+    }
+
+    &__article-one-suggestion {
+        font-size: 1.5rem;
+        align-self: center;
+    }
+
+    &__article-one-wrapper-row-1 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+    }
+
+    &__article-one {
+        &-writen-by {
+            font-size: 1.25rem;
+            font-weight: 400;
+        }
+
+        &-date {
+            font-size: 1.25rem;
+            border-left: .1rem solid black;
+            padding-left: 1rem;
+        }
+
+        &-read-time {
+            font-size: 1.25rem;
+            font-weight: 400;
+        }
+
+    }
+
+    //////////////////////////////////////////////////
+    //SECOND POPULAR SIDE ARTICLE
+
+    
+    &__article-two-wrapper-row {
+        display: flex;
+        margin-top: 1rem;
+
+        & > * {
+            @include text-decoration;
+        }
+    }
+
+    &__article-two-02 {
+        font-size: 1.75rem;
+        align-self: center;
+        margin-right: 1rem;
+    }
+
+    &__article-two-suggestion {
+        font-size: 1.5rem;
+        align-self: center;
+    }
+
+    &__article-two-wrapper-row-2 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+    }
+
+    &__article-two {
+        &-writen-by {
+            font-size: 1.25rem;
+            font-weight: 400;
+        }
+
+        &-date {
+            font-size: 1.25rem;
+            border-left: .1rem solid black;
+            padding-left: 1rem;
+        }
+
+        &-read-time {
+            font-size: 1.25rem;
+            font-weight: 400;
+        }
+
+    }
+
+    ////////////////////////////////////////////////
+    ////ARTICLE THIRD POPULAR SIDE OF COURSE
+
+    &__article-three-wrapper-row {
+        display: flex;
+        margin-top: 1rem;
+
+        & > * {
+            @include text-decoration;
+        }
+    }
+
+    &__article-three-03 {
+        font-size: 1.75rem;
+        align-self: center;
+        margin-right: 1rem;
+    }
+
+    &__article-three-suggestion {
+        font-size: 1.5rem;
+        align-self: center;
+    }
+
+    &__article-three-wrapper-row-3 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+    }
+
+    &__article-three {
+        &-writen-by {
+            font-size: 1.25rem;
+            font-weight: 400;
+        }
+
+        &-date {
+            font-size: 1.25rem;
+            border-left: .1rem solid black;
+            padding-left: 1rem;
+        }
+
+        &-read-time {
+            font-size: 1.25rem;
+            font-weight: 400;
+        }
+
+    }
+
+    ///////////////////////////////////////////////
+    ////ARTICLE FOURTH POPULAR SIDE OF COURSE PT2
+    &__article-four-wrapper-row {
+        display: flex;
+        margin-top: 1rem;
+
+        & > * {
+            @include text-decoration;
+        }
+    }
+
+    &__article-four-04 {
+        font-size: 1.75rem;
+        align-self: center;
+        margin-right: 1rem;
+    }
+
+    &__article-four-suggestion {
+        font-size: 1.5rem;
+        align-self: center;
+    }
+
+    &__article-four-wrapper-row-3 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+    }
+
+    &__article-four {
+        &-writen-by {
+            font-size: 1.25rem;
+            font-weight: 400;
+        }
+
+        &-date {
+            font-size: 1.25rem;
+            border-left: .1rem solid black;
+            padding-left: 1rem;
+        }
+
+        &-read-time {
+            font-size: 1.25rem;
+            font-weight: 400;
+        }
+    }
+}

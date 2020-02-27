@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300i,500i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+
+@mixin displaynone {
+    display: none;
+}
+
+@mixin textdecorationwhite {
+    text-decoration: none;
+    color: var(--font-white);
+}
+
+@mixin textdecorationblack {
+    text-decoration: none;
+    color: var(--font-black);
+}
+
+@mixin text-decoration {
+    text-decoration: none;
+    color: var(--font-default);
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+:root {
+    --font-default: #000;
+    --play-fair: 'Playfair Display', Arial, Helvetica, sans-serif;
+    --font-white: #fff;
+
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 120rem;
+    min-width: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+

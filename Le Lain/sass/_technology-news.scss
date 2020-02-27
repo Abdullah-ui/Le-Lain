@@ -1,0 +1,625 @@
+////////////////////////////////////// 
+//PART 1 ARTICLE
+.apple-finally-got-something {
+    transition: all .4s;
+    &:hover {
+        transform: scale(1.15);
+        margin-right: 1rem;
+    }
+}
+.articles__technology {
+    display: flex;
+    max-width: 90rem;
+    min-width: auto;
+    margin: 0 auto;
+
+
+    &-article-photo-1 {
+        width: 22%;
+        height: auto;
+        margin-left: 1rem;
+        // padding-top: 1rem;
+
+        @media (max-width: 534px) {
+            width: 35%;
+        }
+
+        @media (max-width: 470px) {
+            width: 30%;
+        }
+        
+        @media (max-width: 320px) {
+            display: none;
+        }
+    }
+
+    &-head-writen-time-1 {
+        display: flex;
+        flex-direction: column;
+        width: 87%;
+        border-top: .1rem solid rgba(129, 128, 128, 0.3);
+        border-bottom: .1rem solid rgba(129, 128, 128, 0.3);
+
+        @media (max-width: 534px) {
+            width: 64%;
+        }
+
+        @media (max-width: 470px) {
+            width: 70%;
+        }
+
+        @media (max-width: 320px) {
+            width: 100%;
+        }
+
+        & > * {
+            text-decoration: none;
+            color: var(--font-default);
+            margin-top: 1.5rem;
+            margin-left: 1rem;
+        }
+            
+        &--heading-1 {
+            font-size: 2rem;
+            @media (max-width: 470px) {
+                font-size: 1.5rem;
+            }
+
+            
+
+            &:hover {
+                color: purple;
+                text-decoration: underline;
+            }
+        }
+
+        &-row-1 {
+            display: flex;
+                
+            &--writen-by-1 {
+                font-size: 1.5rem;
+                margin-right: 1rem;
+                border-right: .1rem solid black;
+                padding: 1.5rem;
+                font-family: 'Roboto', Arial, Helvetica, sans-serif;
+
+                &-style {
+                    text-decoration: none;
+                    color: var(--font-default);
+                }
+
+                &-style:hover {
+                    
+                    color: purple;
+                }
+
+                @media (max-width: 470px) {
+                    font-size: 1rem;
+                    padding: 1rem;
+                }
+
+                
+            }
+
+            &--time-1 {
+                font-size: 1.25rem;
+                padding: 1.5rem;
+
+                @media (max-width: 470px) {
+                    font-size: 1rem;
+                    padding: 1rem;
+                }
+            }
+        }
+    }
+}
+
+
+//////////////////////////////////////////////////////////////////////
+//PART 2 ARTICLE 
+.facebook-being-sued {
+    transition: all .4s;
+    &:hover {
+        transform: scale(1.15);
+        margin-right: 1rem;
+    }
+}
+.articles__technology-2 {
+    display: flex;
+    max-width: 90rem;
+    min-width: auto;
+    margin: 3rem auto;
+
+
+    &-article-photo-2 {
+        width: 22%;
+        height: auto;
+        margin-left: 1rem;
+        // padding-top: 1rem;
+
+        @media (max-width: 534px) {
+            width: 35%;
+        }
+
+        @media (max-width: 470px) {
+            width: 30%;
+        }
+        
+        @media (max-width: 320px) {
+            display: none;
+        }
+    }
+
+    &-head-writen-time-2 {
+        display: flex;
+        flex-direction: column;
+        width: 87%;
+        border-top: .1rem solid rgba(129, 128, 128, 0.3);
+        border-bottom: .1rem solid rgba(129, 128, 128, 0.3);
+
+        @media (max-width: 534px) {
+            width: 64%;
+        }
+
+        @media (max-width: 470px) {
+            width: 70%;
+        }
+
+        @media (max-width: 320px) {
+            width: 100%;
+        }
+
+        & > * {
+            text-decoration: none;
+            color: var(--font-default);
+            margin-top: 1.5rem;
+            margin-left: 1rem;
+        }
+            
+        &--heading-2 {
+            font-size: 2rem;
+            @media (max-width: 470px) {
+                font-size: 1.5rem;
+            }
+
+            
+
+            &:hover {
+                color: purple;
+                text-decoration: underline;
+            }
+        }
+
+        &-row-2 {
+            display: flex;
+                
+            &--writen-by-2 {
+                font-size: 1.5rem;
+                margin-right: 1rem;
+                border-right: .1rem solid black;
+                padding: 1.5rem;
+                font-family: 'Roboto', Arial, Helvetica, sans-serif;
+
+                &-style {
+                    text-decoration: none;
+                    color: var(--font-default);
+                }
+
+                &-style:hover {
+                    
+                    color: purple;
+                }
+
+                @media (max-width: 470px) {
+                    font-size: 1rem;
+                    padding: 1rem;
+                }
+
+                
+            }
+
+            &--time-2 {
+                font-size: 1.25rem;
+                padding: 1.5rem;
+
+                @media (max-width: 470px) {
+                    font-size: 1rem;
+                    padding: 1rem;
+                }
+            }
+        }
+    }
+}
+
+
+// //////////////////////////////////////////////////////////////////////
+// //PART 3 ARTICLE 
+.new-linux-platform {
+    transition: all .4s;
+    &:hover {
+        transform: scale(1.15);
+        margin-right: 1rem;
+    }
+}
+
+.articles__technology-3 {
+    display: flex;
+    max-width: 90rem;
+    min-width: auto;
+    margin: 3rem auto;
+
+
+    &-article-photo-3 {
+        width: 22%;
+        height: auto;
+        margin-left: 1rem;
+        // padding-top: 1rem;
+
+        @media (max-width: 534px) {
+            width: 35%;
+        }
+
+        @media (max-width: 470px) {
+            width: 30%;
+        }
+        
+        @media (max-width: 320px) {
+            display: none;
+        }
+    }
+
+    &-head-writen-time-3 {
+        display: flex;
+        flex-direction: column;
+        width: 87%;
+        border-top: .1rem solid rgba(129, 128, 128, 0.3);
+        border-bottom: .1rem solid rgba(129, 128, 128, 0.3);
+
+        @media (max-width: 534px) {
+            width: 64%;
+        }
+
+        @media (max-width: 470px) {
+            width: 70%;
+        }
+
+        @media (max-width: 320px) {
+            width: 100%;
+        }
+
+        & > * {
+            text-decoration: none;
+            color: var(--font-default);
+            margin-top: 1.5rem;
+            margin-left: 1rem;
+        }
+            
+        &--heading-3 {
+            font-size: 2rem;
+            @media (max-width: 470px) {
+                font-size: 1.5rem;
+            }
+
+            
+
+            &:hover {
+                color: purple;
+                text-decoration: underline;
+            }
+        }
+
+        &-row-3 {
+            display: flex;
+                
+            &--writen-by-3 {
+                font-size: 1.5rem;
+                margin-right: 1rem;
+                border-right: .1rem solid black;
+                padding: 1.5rem;
+                font-family: 'Roboto', Arial, Helvetica, sans-serif;
+
+                &-style {
+                    text-decoration: none;
+                    color: var(--font-default);
+                }
+
+                &-style:hover {
+                    
+                    color: purple;
+                }
+
+                @media (max-width: 470px) {
+                    font-size: 1rem;
+                    padding: 1rem;
+                }
+
+                
+            }
+
+            &--time-3 {
+                font-size: 1.25rem;
+                padding: 1.5rem;
+
+                @media (max-width: 470px) {
+                    font-size: 1rem;
+                    padding: 1rem;
+                }
+            }
+        }
+    }
+}
+
+// //////////////////////////////////////////////////////////////////////
+// //PART 4 ARTICLE 
+.how-why-and-truth-of-samsung-z-flip {
+    transition: all .4s;
+    &:hover {
+        transform: scale(1.15);
+        margin-right: 1rem;
+    }
+}
+.articles__technology-4 {
+    display: flex;
+    max-width: 90rem;
+    min-width: auto;
+    margin: 3rem auto;
+
+
+    &-article-photo-4 {
+        width: 22%;
+        height: auto;
+        margin-left: 1rem;
+        // padding-top: 1rem;
+
+        @media (max-width: 534px) {
+            width: 35%;
+        }
+
+        @media (max-width: 470px) {
+            width: 30%;
+        }
+        
+        @media (max-width: 320px) {
+            display: none;
+        }
+    }
+
+    &-head-writen-time-4 {
+        display: flex;
+        flex-direction: column;
+        width: 87%;
+        border-top: .1rem solid rgba(129, 128, 128, 0.3);
+        border-bottom: .1rem solid rgba(129, 128, 128, 0.3);
+
+        @media (max-width: 534px) {
+            width: 64%;
+        }
+
+        @media (max-width: 470px) {
+            width: 70%;
+        }
+
+        @media (max-width: 320px) {
+            width: 100%;
+        }
+
+        & > * {
+            text-decoration: none;
+            color: var(--font-default);
+            margin-top: 1.5rem;
+            margin-left: 1rem;
+        }
+            
+        &--heading-4 {
+            font-size: 2rem;
+            @media (max-width: 470px) {
+                font-size: 1.5rem;
+            }
+
+            
+
+            &:hover {
+                color: purple;
+                text-decoration: underline;
+            }
+        }
+
+        &-row-4 {
+            display: flex;
+                
+            &--writen-by-4 {
+                font-size: 1.5rem;
+                margin-right: 1rem;
+                border-right: .1rem solid black;
+                padding: 1.5rem;
+                font-family: 'Roboto', Arial, Helvetica, sans-serif;
+
+                &-style {
+                    text-decoration: none;
+                    color: var(--font-default);
+                }
+
+                &-style:hover {
+                    
+                    color: purple;
+                }
+
+                @media (max-width: 470px) {
+                    font-size: 1rem;
+                    padding: 1rem;
+                }
+
+                
+            }
+
+            &--time-4 {
+                font-size: 1.25rem;
+                padding: 1.5rem;
+
+                @media (max-width: 470px) {
+                    font-size: 1rem;
+                    padding: 1rem;
+                }
+            }
+        }
+    }
+}
+
+// //////////////////////////////////////////////////////////////////////
+// //PART 5 ARTICLE 
+.windows-10 {
+    transition: all .4s;
+    &:hover {
+        transform: scale(1.15);
+        margin-right: 1rem;
+    }
+}
+.articles__technology-5 {
+    display: flex;
+    max-width: 90rem;
+    min-width: auto;
+    margin: 3rem auto;
+
+
+    &-article-photo-5 {
+        width: 22%;
+        height: auto;
+        margin-left: 1rem;
+        // padding-top: 1rem;
+
+        @media (max-width: 534px) {
+            width: 35%;
+        }
+
+        @media (max-width: 470px) {
+            width: 30%;
+        }
+        
+        @media (max-width: 320px) {
+            display: none;
+        }
+    }
+
+    &-head-writen-time-5 {
+        display: flex;
+        flex-direction: column;
+        width: 87%;
+        border-top: .1rem solid rgba(129, 128, 128, 0.3);
+        border-bottom: .1rem solid rgba(129, 128, 128, 0.3);
+
+        @media (max-width: 534px) {
+            width: 64%;
+        }
+
+        @media (max-width: 470px) {
+            width: 70%;
+        }
+
+        @media (max-width: 320px) {
+            width: 100%;
+        }
+
+        & > * {
+            text-decoration: none;
+            color: var(--font-default);
+            margin-top: 1.5rem;
+            margin-left: 1rem;
+        }
+            
+        &--heading-5 {
+            font-size: 2rem;
+            @media (max-width: 470px) {
+                font-size: 1.5rem;
+            }
+
+            
+
+            &:hover {
+                color: purple;
+                text-decoration: underline;
+            }
+        }
+
+        &-row-5 {
+            display: flex;
+                
+            &--writen-by-5 {
+                font-size: 1.5rem;
+                margin-right: 1rem;
+                border-right: .1rem solid black;
+                padding: 1.5rem;
+                font-family: 'Roboto', Arial, Helvetica, sans-serif;
+
+                &-style {
+                    text-decoration: none;
+                    color: var(--font-default);
+                }
+
+                &-style:hover {
+                    
+                    color: purple;
+                }
+
+                @media (max-width: 470px) {
+                    font-size: 1rem;
+                    padding: 1rem;
+                }
+
+                
+            }
+
+            &--time-5 {
+                font-size: 1.25rem;
+                padding: 1.5rem;
+
+                @media (max-width: 470px) {
+                    font-size: 1rem;
+                    padding: 1rem;
+                }
+            }
+        }
+    }
+}
+
+
+.checkout__more {
+    margin: 0 auto;
+    max-width: 30rem;
+
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--font-white);
+
+    font-size: 1.5rem;
+    background-color: black;
+    padding: 1.5rem;
+    border-radius: 8rem;
+    display: block;
+    transition: all .3s;
+
+    @media (max-width: 855px) {
+        transition: none;
+    }
+    
+
+    @media (max-width: 320px) {
+        font-size: 1rem;
+    }
+
+    @media (max-width: 320px) {
+        max-width: 20rem;
+    }
+    &:hover {
+        transform: scale(1.1);
+
+        @media (max-width: 855px) {
+            transform: none;
+        }
+    }
+
+    &:active {
+        transform: translateY(.5rem) scale(1.1);
+        background-color: rgb(92, 92, 92);
+    }
+}

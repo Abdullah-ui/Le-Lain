@@ -1,0 +1,95 @@
+.social-media {
+    display: flex;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.199);
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.199);
+    padding: 2rem 0;
+    margin: 5rem 0;
+
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 855px) {
+        flex-direction: column;
+    }
+
+    &__le-lain {
+        font-weight: 300;
+        font-family: 'Work Sans', Helvetica, sans-serif;
+        text-transform: uppercase;
+        margin-left: 1rem;
+        font-size: 1.5rem;
+
+        @media (max-width: 855px) {
+            order: 3;
+        }
+
+        @media (max-width: 310px) {
+            font-size: 1.25rem;
+        }
+
+        &--media {
+            font-weight: 700;
+            color: rgba(134, 134, 134, 0.918);
+        }
+    }
+
+    &__keeping-you-updated {
+        font-family: 'Merriweather' Helvetica, sans-serif;
+        font-size: 1.5rem;
+
+        @media (max-width: 855px) {
+            margin-bottom: 1rem;
+        }
+
+        @media (max-width: 310px) {
+            font-size: 1.25rem;
+        }
+        
+    }
+
+}
+
+.fab {
+    margin-right: 2rem;
+    font-size: 1.5rem;
+
+    @media (max-width: 855px) {
+        margin: 1.5rem 1.25rem;
+    }
+
+    @media (max-width: 310px) {
+            font-size: 1.25rem;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+.fa-facebook-f {
+    color: black;
+
+    &:hover {
+        color: #3b5998;
+    }
+}
+.fa-instagram {
+    color: black;
+
+    &:hover {
+        color: #8a3ab9;
+    }
+}
+.fa-twitter {
+    color: black;
+
+    &:hover {
+        color: #00acee;
+    }
+}
+.fa-linkedin-in {
+    color: black;
+
+    &:hover {
+        color: #0e76a8;
+    }
+}

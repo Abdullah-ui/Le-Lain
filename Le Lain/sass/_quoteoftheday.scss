@@ -1,0 +1,104 @@
+.quote {
+    margin: 3rem;
+    overflow: hidden;
+
+    &__wrapper {
+        
+        background-image: url('../images/Quote\ Of\ The\ Day/Quote of the day.jpg');
+        height: 20rem;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+        @media (max-width: 378px) {
+            height: 25rem;
+        }
+
+        @media (max-width: 320px) {
+            height: 30rem;
+        }
+
+        @media (max-width: 240px) {
+            height: 35rem;
+        }
+        
+        @media (max-width: 220px) {
+            height: 40rem;
+        }
+        
+        & > * {
+            font-family: 'Merriweather', Arial, Helvetica, sans-serif;
+        }
+    }
+
+    &__wrapper-headings {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 1rem;
+    }
+    
+    &__of-the-day {
+        
+        &-quote {
+            font-size: 2.5rem;
+            text-align: center;
+            margin: 0 1rem;
+            font-family: 'Work Sans', sans-serif;
+            color: rgba(255, 123, 0, 0.692);
+
+            @media (max-width: 614px) {
+                font-size: 2rem;
+            }
+
+            @media (max-width: 230px) {
+                font-size: 1.5rem;
+            }
+        }
+
+        &-title {
+            font-size: 3rem;
+            text-decoration: none; 
+            color: rgb(255, 255, 255);
+            text-align: center;
+
+            &-style {
+                color: rgb(255, 168, 7);
+            }
+
+            @media (max-width: 614px) {
+                font-size: 2.5rem;
+            }
+
+            @media (max-width: 205px) {
+                font-size: 2rem;
+            }
+        }
+
+        &-by {
+            align-self: flex-end;
+            font-size: 1.5rem;
+            color: rgb(255, 255, 255);
+            // margin-right: 5rem;
+            margin-top: 1rem;
+
+            @media (max-width: 614px) {
+                font-size: 1.25rem;
+            }
+
+            @media (max-width: 230px) {
+                font-size: 1rem;
+            }
+            
+            &-style {
+                font-family: 'Roboto';
+            }
+        }
+    }
+}

@@ -1,0 +1,517 @@
+.articles-business {
+    max-width: 135rem;
+    min-width: auto;
+    margin: 4rem auto;
+
+    display: flex;
+    justify-content: space-between;
+    
+
+    @media (max-width: 1355px) {
+        margin: 4rem 4rem;
+    }
+
+    
+
+    @media (max-width: 855px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin: 4rem 0;
+        border-bottom: .1rem solid rgba(0, 0, 0, 0.199);
+    }
+    ///////////////////////////////////////////////// 
+    //THE NO1 THING EVERY BUSINESS ARTILCE STYLINGS
+    &__main-title {
+        margin: 3rem;
+        border-top: .7rem solid rgba(0, 0, 0, 0.199);
+        border-bottom: .1rem solid rgba(0, 0, 0, 0.199);
+        display: flex;
+        
+        @media (max-width: 855px) {
+            margin: none;
+            border-top: none;
+            border-bottom: none;
+            justify-content: center;
+        }
+         &-1 {
+            font-size: 4rem;
+            text-decoration: none;
+            color: var(--font-default);
+            font-family: 'Merriweather', Helvetica, sans-serif;
+            margin-left: 4rem;
+            transition: all .2s;
+
+            @media (max-width: 855px) {
+                font-size: 3.5rem;
+                margin-top: 2rem;
+                border: 2px solid grey;
+                padding: 1rem 4rem;
+                margin-left: 0;
+                transition: none;
+            }
+
+            @media (max-width: 360px) {
+                font-size: 2.75rem;
+            }
+
+            @media (max-width: 220px) {
+                font-size: 2.25rem;
+            }
+
+            @media (max-width: 190px) {
+                font-size: 1.8rem;
+            }
+
+            &:hover {
+                padding-right: 1rem;
+
+                @media (max-width: 855px) {
+                    padding-right: none;
+                }
+            }
+            
+
+            &-symbol{
+                margin-left: 1rem;
+                font-size: 3.5rem;
+                transition: all .2s;
+
+                @media (max-width: 855px) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    &-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden; 
+        width: 33.33%;
+
+        @media (max-width: 855px) {
+            width: 100%;
+            order: 2;
+        }
+
+        & > * {
+            text-decoration: none;
+            color: var(--font-default);
+            
+        }
+
+        &__image {
+            width: 100%;
+            padding-top: 0.2rem;
+            transition: all .2s ease-in;
+
+            &:hover {
+                transform: scale(.98)
+            }
+        }
+
+        &__main-heading {
+            font-family: 'Merriweather', Helvetica, sans-serif;
+            font-size: 2rem;
+            margin-top: 1.5rem;
+
+            @media (max-width: 855px) {
+                text-decoration: underline;
+                margin-left: 1rem;
+            }
+        }
+
+        &__paragraph {
+            margin-top: 2.5rem;
+            font-size: 1.4rem;
+            color: grey;
+
+            @media (max-width: 855px) {
+                margin-left: 1rem;
+            }
+        }
+
+        &__writen-by {
+            margin-top: 2.5rem;
+            font-size: 1.4rem;
+
+            &-date {
+                font-size: 1.2rem;
+                color: grey;
+                cursor: text;
+
+                @media (max-width: 855px) {
+                    margin-left: 1rem;
+                }
+            }
+
+            @media (max-width: 855px) {
+                margin-left: 1rem;
+            }
+        }
+    }
+
+    ///////////////////////////////////////////////// 
+    //THE BORDER IN BETWEEN THESE TWO ARTICLES
+    &__border {
+        background-color:rgba(0, 0, 0, 0.199);
+        height: 50rem;
+        width: .15%;
+
+        @media (max-width: 855px) {
+            width: 100%;
+            height: .1rem;
+            margin: 4rem 0;
+        }
+    }
+
+    ///////////////////////////////////////////////// 
+    //HOW RIHANNA BECOME A 600M$ NET WORTH AT THE AGE OF 32 ARTICLE
+    &-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        width: 63%;
+        
+
+        @media (max-width: 855px) {
+            width: 95%;
+            order: -1;
+            margin: 0 auto;
+        }
+
+        & > * {
+            color: var(--font-default);
+        }
+
+        &__image {
+            width: 100%;
+            padding-top: 0rem;
+            outline: .5rem solid red;
+            // outline-offset: -.4rem;
+        }
+
+        &__main-heading {
+            font-size: 2.5rem;
+            margin: 2rem 0;
+            text-align: center;
+            font-family: 'Merriweather', Helvetica, sans-serif;
+        }
+    }
+    
+}
+
+////////////////////////////////////////////////////// 
+//ARTICLE BELOW THE TWO
+
+.articles-business-second {
+    display: flex;
+    max-width: 135rem;
+    min-width: auto;
+    margin: 5rem auto;
+
+    @media (max-width: 1355px) {
+        margin: 4rem 4rem;
+    }
+
+    @media (max-width: 855px) {
+        margin: 5rem 0;
+        flex-direction: column;
+    }
+    
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        
+        @media (max-width: 855px) {
+            width: 100%;
+            order: 2;
+        }
+    }
+    ////////////////////////////////////////////// 
+    //FIRST ARTICLE TALKING ABOUT MEETING A MILLIONAIRE AND HOW HE RUNS HIS BUSINESS
+    &__article-1 {
+        display: flex;
+        width: 100%;
+
+        @media (max-width: 290px) {
+            border-top: .1rem solid rgba(0, 0, 0, 0.199);
+            border-bottom: .1rem solid rgba(0, 0, 0, 0.199);
+            padding: 2rem 0;
+        }
+
+        //THE PHOTO
+        &-image {
+            padding-top: .2rem;
+            width: 15rem;
+
+            @media (max-width: 412px) {
+                padding-top: 1rem;
+            }
+
+            @media (max-width: 290px) {
+                display: none;
+            }
+        }
+
+        //THE ROW WHICH MAKES A COLUMN FOR THE HEADING AND THE READ TIEM WITH THE AUTHOR NAME
+        &-row {
+            display: flex;
+            flex-direction: column;
+            margin-left: 1.5rem;
+
+            & > * {
+                text-decoration: none;
+                color: var(--font-default);
+            }
+
+            &-main-heading {
+                font-size: 1.75rem;
+                font-family: 'Merriweather', Helvetica, sans-serif;
+                padding-bottom: 1rem;
+
+                @media (max-width: 412px) {
+                    font-size: 1.5rem;
+                }
+            }
+
+            &-by {
+                font-size: 1.3rem;
+                font-weight: 300;
+
+                @media (max-width: 412px) {
+                    font-size: 1.1rem;
+                }
+            }
+    
+            &-writen-by {
+                font-size: 1.3rem;
+                font-weight: 700;
+
+                @media (max-width: 412px) {
+                    font-size: 1.1rem;
+                }
+            }
+
+            &-read-time {
+                color: grey;
+                font-size: 1.2rem;
+
+                @media (max-width: 412px) {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    ////////////////////////////////////////////// 
+    //ARTICLE 2 ABOUT THE FINEST STARTUPS IN TECH CURRENTLY
+
+    &__article-2 {
+        display: flex;
+        width: 100%;
+        margin: 6rem 0;;
+
+        @media (max-width: 290px) {
+            margin: 0;
+            border-bottom: .1rem solid rgba(0, 0, 0, 0.199);
+            padding: 2rem 0;
+        }
+
+        &-image {
+            width: 15rem;
+            padding-top: .2rem;
+
+            @media (max-width: 412px) {
+                padding-top: 1rem;
+            }
+
+            @media (max-width: 290px) {
+                display: none;
+            }
+        }
+
+        &-row {
+            display: flex;
+            flex-direction: column;
+            margin-left: 1.5rem;
+
+            & > * {
+                text-decoration: none;
+                color: var(--font-default);
+            }
+
+            &-main-heading {
+                font-size: 1.75rem;
+                font-family: 'Merriweather', Helvetica, sans-serif;
+                padding-bottom: 1rem;
+
+                @media (max-width: 412px) {
+                    font-size: 1.5rem;
+                }
+            }
+
+            &-by {
+                font-size: 1.3rem;
+                font-weight: 300;
+
+                @media (max-width: 412px) {
+                    font-size: 1.1rem;
+                }
+            }
+    
+            &-writen-by {
+                font-size: 1.3rem;
+                font-weight: 700;
+
+                @media (max-width: 412px) {
+                    font-size: 1.1rem;
+                }
+            }
+
+            &-read-time {
+                color: grey;
+                font-size: 1.2rem;
+
+                @media (max-width: 412px) {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    ////////////////////////////////////////////// 
+    //ARTICLE ABOUT CORONAVIUS HAVING INFLUENCE ON GLABAL BUSINESS
+
+    &__article-3 {
+        display: flex;
+        width: 100%;
+
+        @media (max-width: 290px) {
+            border-bottom: .1rem solid rgba(0, 0, 0, 0.199);
+            padding: 2rem 0;
+        }
+
+        &-image {
+            width: 15rem;
+            padding-top: .2rem;
+
+            @media (max-width: 412px) {
+                padding-top: 1rem;
+            }
+
+            @media (max-width: 290px) {
+                display: none;
+            }
+        }
+
+        &-row {
+            display: flex;
+            flex-direction: column;
+            margin-left: 1.5rem;
+
+            & > * {
+                text-decoration: none;
+                color: var(--font-default);
+            }
+
+            &-main-heading {
+                font-size: 1.75rem;
+                font-family: 'Merriweather', Helvetica, sans-serif;
+                padding-bottom: 1rem;
+
+                @media (max-width: 412px) {
+                    font-size: 1.5rem;
+                }
+            }
+
+            &-by {
+                font-size: 1.3rem;
+                font-weight: 300;
+
+                @media (max-width: 412px) {
+                    font-size: 1.1rem;
+                }
+            }
+    
+            &-writen-by {
+                font-size: 1.3rem;
+                font-weight: 700;
+
+                @media (max-width: 412px) {
+                    font-size: 1.1rem;
+                }
+            }
+
+            &-read-time {
+                color: grey;
+                font-size: 1.2rem;
+
+                @media (max-width: 412px) {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    ////////////////////////////////////////////// 
+    //ARTICLE ABOUT THINGS THAT SOMEONE KNEW BEFORE STARTING THEIR OWN BUSINESS BASICALLY
+
+    &__things {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+
+        @media (max-width: 855px) {
+            width: 95%;
+            margin:0 auto;
+            margin-bottom: 4rem;
+        }
+
+        &-image {
+            width: 100%;
+        }
+
+        &-row {
+            display: flex;
+            flex-direction: column;
+
+            & > * {
+                color: var(--font-default);
+                text-decoration: none;
+            }
+
+            &-main-heading {
+                font-size: 2.5rem;
+                font-family: 'Merriweather', Helvetica, sans-serif;
+                text-decoration: underline;
+
+                @media (max-width: 300px) {
+                    font-size: 2rem;
+                }
+            }
+
+            &-by {
+                font-size: 1.5rem;
+
+                @media (max-width: 855px) {
+                    align-self: flex-end;
+                    margin-top: 1rem;
+                }
+            }
+
+            &-writen-by {
+                font-size: 1.5rem;
+
+                @media (max-width: 855px) {
+                    align-self: flex-end;
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+}

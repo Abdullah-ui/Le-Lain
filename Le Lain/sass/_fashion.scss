@@ -1,0 +1,455 @@
+.articles-fashion {
+    display: flex;
+    max-width: 135rem;
+    min-width: auto;
+    margin: 0 auto;
+
+    @media (max-width: 1355px) {
+        margin: 0 4rem;
+    }
+    
+    @media (max-width: 1200px) {
+        flex-direction: column;
+    }
+
+    /////////////////////////////////////////////////// 
+    //MAIN TITLE OF FASHION WITH THE ANIMATION
+    &__main-title {
+        margin: 3rem;
+        border-top: .7rem solid rgba(0, 0, 0, 0.199);
+        border-bottom: .1rem solid rgba(0, 0, 0, 0.199);
+        display: flex;
+        
+        @media (max-width: 855px) {
+            margin: none;
+            border-top: none;
+            border-bottom: none;
+            justify-content: center;
+        }
+
+         &-1 {
+            font-size: 4rem;
+            text-decoration: none;
+            color: var(--font-default);
+            font-family: 'Merriweather', Helvetica, sans-serif;
+            margin-left: 4rem;
+            transition: all .2s;
+
+            @media (max-width: 855px) {
+                font-size: 3.5rem;
+                margin-top: 2rem;
+                border: 2px solid grey;
+                padding: 1rem 4rem;
+                margin-left: 0;
+            }
+
+            @media (max-width: 360px) {
+                font-size: 2.75rem;
+            }
+
+            @media (max-width: 220px) {
+                font-size: 2.25rem;
+            }
+
+            @media (max-width: 190px) {
+                font-size: 1.8rem;
+            }
+
+            &:hover {
+                padding-right: 1rem;
+
+                @media (max-width: 855px) {
+                    padding-right: none;
+                }
+            }
+            
+
+            &-symbol{
+                margin-left: 1rem;
+                font-size: 3.5rem;
+                transition: all .2s;
+
+                @media (max-width: 855px) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    /////////////////////////////////////////////////// 
+    //ARTICLES START OVER HERE FOR FASHION
+    &__wrapper {
+        width: 70%;
+
+        @media (max-width: 1200px) {
+            width: 100%;
+        }
+        /////////////////////////////////////////////////// 
+        //ARTICLE ABOUT L'OREAL SALES OR MAKE UP SALES RISING UP IN CHINA 
+        &-1 {
+            width: 100%;
+            
+            &-image {
+                width: 100%;
+            }
+    
+            &-row {
+                display: flex;
+                flex-direction: column;
+                padding-top: 2rem;
+    
+                & > * {
+                    text-decoration: none;
+                    color: var(--font-default);
+                }
+                &-main-heading {
+                    text-decoration: underline;
+                    font-size: 3rem;
+                    font-family: 'Merriweather', Helvetica, sans-serif;
+
+                    @media (max-width: 610px) {
+                        font-size: 2rem;
+                    }
+
+                    @media (max-width: 590px) {
+                        text-decoration: none;
+                    }
+                }
+        
+                &-paragraph {
+                    font-size: 1.5rem;
+                    padding-top: 1rem;
+
+                    @media (max-width: 610px) {
+                        font-size: 1.25rem;
+                    }
+                }
+            }
+        }
+
+        &-side-wrapper {
+            width: 30%;
+            margin: 0 4rem;
+
+            @media (max-width: 1200px) {
+                display: none;
+            }
+        }
+
+        /////////////////////////////////////////////////// 
+        //ARTICLE ABOUT WHAT COLORS TO WEAR ON INTEWRNATIONAL WOMEN'S DAY
+        &-2 {
+            width: 100%;
+            margin-bottom: 3rem;
+            &-row {
+                border-left: .1rem solid rgba(0, 0, 0, 0.199);
+                border-bottom: .1rem solid rgba(0, 0, 0, 0.199);
+                display: flex;
+                flex-direction: column;
+                padding: 1rem;
+
+                & > * {
+                    text-decoration: none;
+                    color: var(--font-black);
+                }
+
+                &-main-heading {
+                    font-size: 2rem;
+                    font-weight: 700;
+
+                    &:hover {
+                        color: purple;
+                    }
+                }
+
+                &-paragraph {
+                    padding-top: 1rem;
+                    font-size: 1.35rem;
+                }
+            }
+                
+        }
+
+        ////////////////////////////////////////////////////////////////
+        //ALL THE OTHER ARTICLES ARE ALSO CONNECTED TO THIS ONE AS THEY GO OFF AFTER THE 1000px
+        &-3 {
+            width: 100%;
+            margin-bottom: 3rem;
+            
+            &-row {
+                border-left: .1rem solid rgba(0, 0, 0, 0.199);
+                border-bottom: .1rem solid rgba(0, 0, 0, 0.199);
+                display: flex;
+                flex-direction: column;
+                padding: 1rem;
+
+                & > * {
+                    text-decoration: none;
+                    color: var(--font-black);
+                }
+
+                &-main-heading {
+                    font-size: 2rem;
+                    font-weight: 700;
+
+                    &:hover {
+                        color: purple;
+                    }
+                }
+
+                &-paragraph {
+                    padding-top: 1rem;
+                    font-size: 1.35rem;
+                }
+            }
+        }
+    }
+}
+
+//////////////////////////////////////////////////////// 
+//ARTILES BELOW L'OREAL's POST AND ITS ABOUT 10 THINGS THAT WE NEED TO HAVE IN OUR WARDROBE 
+.articles-fashion__column {
+    display: flex;
+    max-width: 135rem;
+    min-width: auto;
+    margin: 0 auto;
+    flex-direction: column;
+
+    @media (max-width: 1355px) {
+        margin: 0 4rem;
+    }
+    &-1 {
+        display: flex;
+        margin: 3rem auto;
+
+        @media (max-width: 590px) {
+            flex-direction: column;
+        }
+
+        &-image {
+            width: 40%;
+            padding-top: .1rem;
+            height: 25rem;
+
+            @media (max-width: 788px) {
+                height: 20rem;
+                margin-top: 2rem;
+            }
+
+            @media (max-width: 680px) {
+                width: 50%;
+                margin-top: 5rem;
+            }
+
+            @media (max-width: 590px) {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        &-row {
+            margin-left: 1rem;
+            display: flex;
+            flex-direction: column;
+            padding-top: 2rem;
+            width: 60%;
+
+            @media (max-width: 590px) {
+                width: 100%;
+            }
+
+            & > * {
+                text-decoration: none;
+                color: var(--font-default);
+            }
+            &-main-heading {
+                font-size: 2.25rem;
+                font-family: 'Merriweather', Helvetica, sans-serif;
+            }
+
+            &-paragraph {
+                font-size: 1.75rem;
+                padding: 1.5rem 0;
+            }
+
+            &-by {
+                font-size: 1.45rem;
+                font-weight: 300;
+            }
+
+            &-writen-by {
+                font-size: 1.45rem;
+                font-weight: 700;
+            }
+        }
+    }
+
+    &-2 {
+        display: flex;
+        margin: 3rem auto;
+
+        @media (max-width: 590px) {
+            flex-direction: column;
+        }
+
+        &-image {
+            width: 40%;
+            padding-top: .1rem;
+            height: 25rem;
+
+            @media (max-width: 788px) {
+                height: 20rem;
+                margin-top: 6rem;
+            }
+            
+            @media (max-width: 718px) {
+                margin-top: 3.5rem;
+            }
+
+            @media (max-width: 680px) {
+                margin-top: 8rem;
+                width: 50%;
+            }
+
+            @media (max-width: 590px) {
+                width: 100%;
+                height: auto;
+                margin-top: 0;
+            }
+        }
+
+        &-row {
+            margin-left: 1rem;
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            padding-top: 2rem;
+
+            @media (max-width: 590px) {
+                width: 100%;
+            }
+
+            & > * {
+                text-decoration: none;
+                color: var(--font-default);
+            }
+            &-main-heading {
+                font-size: 2.25rem;
+                font-family: 'Merriweather', Helvetica, sans-serif;
+
+                @media (max-width: 718px) {
+                    font-size: 1.75rem;
+                }
+
+                @media (max-width: 590px) {
+                    font-size: 2.25rem;
+                }
+            }
+
+            &-paragraph {
+                font-size: 1.75rem;
+                padding: 1.5rem 0;
+
+                @media (max-width: 718px) {
+                    font-size: 1.45rem;
+                }
+
+                @media (max-width: 590px) {
+                    font-size: 1.75rem;
+                }
+            }
+
+            &-by {
+                font-size: 1.45rem;
+                font-weight: 300;
+            }
+
+            &-writen-by {
+                font-size: 1.45rem;
+                font-weight: 700;
+            }
+        }
+    }
+    
+    &-3 {
+        display: flex;
+        margin: 3rem auto;
+
+        @media (max-width: 590px) {
+            flex-direction: column;
+        }
+
+        &-image {
+            width: 40%;
+            padding-top: .1rem;
+            height: auto;
+
+            @media (max-width: 788px) {
+                height: 20rem;
+                margin-top: 1rem;
+            }
+
+            @media (max-width: 680px) {
+                width: 50%;
+            }
+
+            @media (max-width: 590px) {
+                width: 100%;
+                height: auto;
+                margin-top: 0;
+            }
+        }
+
+        &-row {
+            margin-left: 1rem;
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            padding-top: 2rem;
+
+            @media (max-width: 590px) {
+                width: 100%;
+            }
+
+            & > * {
+                text-decoration: none;
+                color: var(--font-default);
+            }
+            &-main-heading {
+                font-size: 2.25rem;
+                font-family: 'Merriweather', Helvetica, sans-serif;
+
+                @media (max-width: 718px) {
+                    font-size: 1.75rem;
+                }
+
+                @media (max-width: 590px) {
+                    font-size: 2.25rem;
+                }
+            }
+
+            &-paragraph {
+                font-size: 1.75rem;
+                padding: 1.5rem 0;
+
+                @media (max-width: 718px) {
+                    font-size: 1.45rem;
+                }
+
+                @media (max-width: 590px) {
+                    font-size: 1.75rem;
+                }
+            }
+
+            &-by {
+                font-size: 1.45rem;
+                font-weight: 300;
+            }
+
+            &-writen-by {
+                font-size: 1.45rem;
+                font-weight: 700;
+            }
+        }
+    }
+}

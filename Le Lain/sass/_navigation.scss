@@ -1,0 +1,120 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0;
+
+        &__items {
+            text-decoration: none;
+            color: var(--font-default);
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            padding: .5rem;
+            transition: all .2s;
+            padding: 1rem;
+            transition: all 1s;
+           
+            
+
+            &:not(:last-child) {
+                margin-right: 1rem;
+            }
+
+            @media (max-width: 602px) {
+                font-size: 1.3rem;
+            }
+
+            @media (max-width: 556px) {
+                font-size: 1.1rem;
+            }
+
+            @media (max-width: 510px) {
+                font-size: 1rem;
+            }
+
+            @media (max-width: 468px) {
+                font-size: 1.4rem;
+            }
+
+            @media (max-width: 460px) {
+                width: 100%;
+                margin: .5rem 0;
+                text-align: center;
+                animation: moveInRight 1s ease-in;
+            }
+
+        }
+
+        &__active {
+            background-color: black;
+            color: #fff;
+            
+
+            &:hover {
+                background-color: rgb(46, 46, 46);
+            }
+
+            @media (max-width: 460px) {
+                width: 100%;
+            }
+        }
+
+        &__about,
+        &__contact,
+        &__articles,
+        &__join,
+        &__journey {
+            border-left: 1px solid black;
+
+            @media (max-width: 460px) {
+                border-left: none;
+                color: var(--font-white);
+                background-color: var(--font-default);
+            }
+        }
+
+        &__journey  {
+            margin-left: -1rem;
+        }
+
+        &__about:hover,
+        &__contact:hover,
+        &__articles:hover,
+        &__join:hover,
+        &__journey:hover {
+            background-color: black;
+            color: var(--font-white);
+        }
+    
+    @media (max-width: 602px) {
+        width: 55rem;
+        margin-left: 1.2rem;
+    }
+
+    @media (max-width: 556px) {
+        width: 50rem;
+        margin-left: 1.4rem;
+    }
+
+    @media (max-width: 510px) {
+        width: 45rem;
+    }
+
+    @media (max-width: 460px) {
+        
+        width: auto;
+        flex-direction: column;
+    }
+    
+}
+
+@keyframes moveInRight {
+    0% {
+        transform: translateX(-120rem);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}

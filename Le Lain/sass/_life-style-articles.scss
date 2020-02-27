@@ -1,0 +1,233 @@
+.articles__life-style {
+    max-width: 130rem;
+    min-width: 40rem;
+    margin: 0 auto;
+    border-bottom: .1rem solid rgba(0, 0, 0, 0.199);
+    // box-sizing: content-box;
+    
+    @media (max-width: 855px) {
+        display: none;
+    }
+
+    &-title {
+        margin: 3rem;
+        border-top: .7rem solid rgba(0, 0, 0, 0.199);
+        border-bottom: .1rem solid rgba(0, 0, 0, 0.199);
+        display: flex;
+
+         &-1 {
+            font-size: 4rem;
+            text-decoration: none;
+            color: var(--font-default);
+            font-family: 'Merriweather', Helvetica, sans-serif;
+            margin-left: 4rem;
+            transition: all .2s;
+
+            &:hover {
+                padding-right: 1rem;
+            }
+            
+
+            &-symbol{
+                margin-left: 1rem;
+                font-size: 3.5rem;
+                transition: all .2s;
+            }
+        }
+        @media (max-width: 855px) {
+            display: none;
+        }
+
+    }
+    //////////////////////////////////////////////////////////
+    ///MAIN ARTICLE 1 ON THE PAGE LEFT SIDE ABOUT HOTELS ECO FRIENDILINESS
+    &-article-1 {
+        display: flex;
+        justify-content: center;
+
+        @media (max-width: 855px) {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    
+    &-article-1-wrapper {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        width: 70%;
+        
+        @media (max-width: 855px) {
+            width: 100%;
+        }
+
+        & > * {
+            text-decoration: none;
+            color: var(--font-default);
+        }
+        &--article-photo {
+            width: 100%;
+            padding-top: 1rem;
+            transition: all 1.5s ease;
+
+            &:hover {
+                transform: scale(1.02)
+            }
+        }
+        
+        &-row {
+            display: flex;
+            align-items: center;
+            margin: 1.5rem;
+        }
+        // margin-right: 10rem;
+
+        &--main-heading {
+            align-self: flex-end;
+            justify-self: center;
+            font-size: 2rem;
+            text-align: center;
+            font-family: 'Merriweather';
+            text-transform: uppercase;
+            color: var(--font-default);
+            font-weight: 300;
+            padding: 1rem;
+
+            @media (max-width: 1152px) {
+                font-size: 1.75rem;
+            }
+        }
+
+        &--writen-by {
+            font-size: 1.5rem;
+            font-family: 'Work Sans', Helvetica, sans-serif;
+            font-weight: 300;
+            text-align: center;
+            border-bottom: .1rem solid rgba(0, 0, 0, 0.199);
+            padding-bottom: 1rem;
+
+            &-style {
+                font-family: 'Work Sans', Helvetica, sans-serif;
+                font-weight: 600;
+                
+            }
+        }
+    }
+
+    /////////////////////////////////////////////////////
+    ///OREOS ARTICLE
+
+    .wrapper-2-underneath {
+        margin-top: 4.5rem;
+    }
+    &-article-1-wrapper {
+        padding: 2rem;
+
+        &-row--column {
+            display: flex;
+            flex-direction: column;
+            
+            & > * {
+                text-decoration: none;
+                color: var(--font-default);
+            }
+        }
+
+        &--underneath {
+
+            &-article-photo {
+                width: 10rem;
+                height: 10rem;
+                margin-right: 1rem;
+                transition: all 1.5s ease;
+            }
+
+            &-main-heading {
+
+                &-1 {
+                    font-family: 'Merriweather';
+                    font-size: 1.5rem;
+                    margin-bottom: 1rem;
+                }
+
+                &-2 {
+                    font-family: 'Merriweather';
+                    font-size: 1.5rem;
+                    margin-bottom: 1rem;
+                }
+                
+            }
+            
+            &-writen-by {
+                &-1 {
+                    font-size: 1.25rem;
+                }
+                
+                &-2 {
+                    font-size: 1.25rem;
+                }
+
+            }
+
+            &-article-photo-2 {
+                width: 10rem;
+                height: 10rem;
+                margin-right: 1rem;
+            }
+        }
+    }
+
+    ///////////////////////////////////////////////
+    //ARTICLE 2
+    
+    &-article-2-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-left: 3rem;
+        padding: 2rem;
+        border-left: .1rem solid rgba(0, 0, 0, 0.199);
+
+        width: 30%;
+
+        @media (max-width: 1050px) {
+            width: 30%;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 855px) {
+            display: none;
+        }
+
+        &--article-photo {
+            padding-top: 1rem;
+            width: 100%;
+            transition: all 1.5s ease;
+        }
+        
+        & > * {
+            text-decoration: none;
+            color: var(--font-default);
+            font-size: 1.75rem;
+            text-align: center;
+            font-family: 'Merriweather';
+            text-transform: uppercase;
+            font-weight: 300;
+        }
+        &--main-heading {
+            border: .1rem solid black;
+            align-self: flex-end;
+            max-width: 60rem;
+            justify-self: center;
+            margin: 2rem 0;
+
+            @media (max-width: 1152px) {
+                font-size: 1.45rem;
+            }
+
+            @media (max-width: 1050px) {
+                font-size: 1.3rem ;
+            }
+        }
+
+    }
+}
